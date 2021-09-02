@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <meta charset='utf-8' >
+   <title>Color Web App</title>
+   <link rel="stylesheet" type="text/css" href="color.css">
+</head>
+
+<body>
+   <h2 id="title">Color Web App</h2> 
+   <div id = "outputDiv" class="container">
+      <div class="row">
+         <div class="col1H">ID</div> 
+         <div class="col2H">Color</div> 
+         <div class="col3H">Hex</div>
+         <div class="col4H">Action</div>
+      </div>
+   </div>
+   <p>
+      <div class="divCol1">Color:</div>
+      <div class="divCol2"><input type="text" id="color"/></div>
+      <br> 
+      <div class="divCol1">Hex:</div>
+      <div class="divCol2"><input type="text" id="hex"/></div>
+      <br>
+      <button id="addColorButton">Add Color</button>
+   </p>
+   <div class="editPanel">
+      <div class="divCol1 idEdit">ID:</div>
+      <div class="divCol2 idEdit"><input type="text" class="idEdit" id="idEdit"/></div>
+      <br> 
+      <div class="divCol1">Color:</div>
+      <div class="divCol2"><input type="text" id="colorEdit"/></div>
+      <br> 
+      <div class="divCol1">Hex:</div>
+      <div class="divCol2"><input type="text" id="hexEdit"/></div>
+      <br>
+      <button id="editColorButton">Edit Color</button>
+   </div>
+   <script src = "http://code.jquery.com/jquery-latest.min.js"></script>
+   <script src = "color.js"></script>
+</body>
+</html>

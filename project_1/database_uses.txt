@@ -1,0 +1,27 @@
+Major: General Social Science - Applied Economics, Business, and Society
+
+1. Stock market (relational): Using vasts amount data to both predict the future of
+stock behavior and keeping track of transactions
+
+2. eCommerce (relational): Keeping track of products, product orders numbers, customers'
+accounts, etc.
+
+3. Unemployment rate (relational): Keeping track of unemployment over the years and putting 
+it together in a graph to analyze visually
+
+4. Streaming services (Netflix, Hulu, etc) (relational): Track a viewer's watch history/behavior and suggest
+new shows or movies to watch
+
+5. Logistics (relational): Using a database to keep track of inventory in a warehouse
+
+6. Social media marketing (relational): Keep track of a user's browser history and behavior to reccomend
+them new people to follow or advertisements for products they may like
+
+7. Market segmentation (relational): Dividing market into different groups of people who have different needs,
+wants, or characteristics, and would have different preferences based on such combinations.
+
+8. Country GDP (noSQL): Bubble chart of each country by GDP
+
+9. U.S. Earthquake Graphing (noSQL): Earthquakes in the U.S. by year
+
+10. Inflation rate and year (noSQL): Graphs of inflation rates over the years

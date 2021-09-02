@@ -1,0 +1,7 @@
+- An author can write many article entries
+- Article entries are written by only one author
+- Non-identifying 1:M relationship
+
+- Article entries can have comments
+- Comments must be posted to one article 
+- Non-identifying 1:M relationship

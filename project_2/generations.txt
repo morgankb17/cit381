@@ -1,0 +1,8 @@
+Assign the person who has the highest hierarchy in the family that is invited to the wedding number zero (0). 
+(ex. granpda would have generation 0). Then whoever has the family type mother, father, uncle, or aunt would 
+get generation number 2. The next line, son, daughter, brother, sister, or cousin, would get generation number 2.
+
+In the person table, a new column should be added named "generationID," which list which generation a person is.
+There should be script within the person table that auto-updates the generationID table with the correct number
+depending on who has the highest hierarchy/generation "0." It would then auto-fill rows with "1" for those who are
+offspring to that person/generation 0, and continue with the same logic for however long the family tree goes.

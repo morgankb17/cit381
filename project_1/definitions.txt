@@ -1,0 +1,19 @@
+a. database schema: The guidelines for a database itself, such as the name of columns, the type of data they will hold,
+and the name of the tables the data will be held in.
+
+b. DBMS: Software that can maintain databases by being able to create, delete, or add things to them
+
+c. primary key: A unique property for a column where data cannot be repeated nor be a "not null" type. 
+
+d. foreign key: A property type for a column in a table where it connects to the primary key, which resides in a
+separate table.
+
+e. surrogate key: A system generated identifier that sometimes has no relation to the content of the database itself
+but can still act as the primary key for a table. An example of this would be something that is auto-incremented.
+
+f. entity integrity: Ensures that every row of a primary key column in a table has a unique identifier
+
+g. referential integrity: If a primary key is references in a separate table as a foreign key, the former cannot be deleted
+
+h. weak entity: An entity that entirely depends on another entity to be defined as it cannot be properly identified
+by itself.

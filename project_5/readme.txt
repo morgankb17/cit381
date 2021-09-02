@@ -1,0 +1,1 @@
+The purpose of this assignment was to create a REST service for one of my Project 4 tables (authors) using Postman

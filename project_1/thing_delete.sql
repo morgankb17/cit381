@@ -1,0 +1,1 @@
+delete from thing where title='Fallout 4';

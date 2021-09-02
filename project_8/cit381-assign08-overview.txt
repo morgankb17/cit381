@@ -1,0 +1,5 @@
+My database consist of different grocery items in a supermarket and the different properties they have. 
+For example, a banana would have a product type 'fruit' while also having a product number, a price number,
+who it's supplied from, and the amount currently stocked. The database also keeps track of purchases and 
+who they are purchased by. This database could be used to keep track of inventory for a specific supermarket
+as well as keep track of products' suppliers and how to contact them when a product is ready to be restocked.

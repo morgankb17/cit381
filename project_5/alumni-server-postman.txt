@@ -1,0 +1,115 @@
+GET
+- The GET URL to retrieve ALL rows from your table
+
+http://localhost:8080/authors
+
+- The JSON result from Postman for all your rows
+
+{
+    "rows": [
+        {
+            "authorID": 4,
+            "lastName": "Burton",
+            "firstName": "Tim",
+            "authorType": "staff"
+        },
+        {
+            "authorID": 2,
+            "lastName": "Nolan",
+            "firstName": "Christopher",
+            "authorType": "alumni"
+        },
+        {
+            "authorID": 3,
+            "lastName": "Scott",
+            "firstName": "Ridley",
+            "authorType": "alumni"
+        },
+        {
+            "authorID": 5,
+            "lastName": "Sorkin",
+            "firstName": "Aaron",
+            "authorType": "staff"
+        },
+        {
+            "authorID": 1,
+            "lastName": "Tarantino",
+            "firstName": "Quentin",
+            "authorType": "alumni"
+        }
+    ],
+    "err": ""
+}
+
+- The GET URL to retrieve the first row by primary key from your table
+
+http://localhost:8080/authors/1
+
+- The JSON result from Postman for your first row
+
+{
+    "rows": [
+        {
+            "authorID": 1,
+            "lastName": "Tarantino",
+            "firstName": "Quentin",
+            "authorType": "alumni"
+        }
+    ],
+    "err": ""
+}
+
+POST
+- The POST URL to insert a new row into your table
+
+http://localhost:8080/authors
+
+- The JSON sent in Postman
+
+{
+    "lastName": "Bartlett",
+    "firstName": "Morgan"
+}
+
+- The JSON result from Postman from POST action
+
+{
+    "status": 6,
+    "err": ""
+}
+
+Optional: PUT and DELETE
+- Use Postman to perform DELETE and PUT actions
+
+    DELETE
+    - The DELETE URL to insert a new row into your table
+
+    http://localhost:8080/authors/6
+
+    - The JSON result from Postman for your deleted row
+
+    {
+    "status": "Deleted",
+    "err": ""
+    }
+
+    PUT
+    - The PUT URL to update a row into your table
+
+    http://localhost:8080/authors
+
+    - The JSON sent in Postman
+
+    {
+    "lastName" : "McQueen",
+    "firstName" : "Steve",
+    "authorID" : "4"
+    }
+
+    - The JSON result from Postman for your updated row
+
+    {
+    "status": "4",
+    "err": "",
+    "message": "Row updated"
+    }
